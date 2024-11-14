@@ -8,7 +8,7 @@ $tasks = $db->query("SELECT * FROM tasks ORDER BY created_at DESC")->fetchAll();
 <head>
 <meta charset="UTF-8">
 <title>To-Do List</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="todoliststyle.css">
 </head>
 <body>
 <h1>To-Do List</h1>
